@@ -197,12 +197,3 @@ All datasets are freely redistributable.
 | Mayor characteristics | Ministry of Interior administrators archive — [dait.interno.gov.it](https://dait.interno.gov.it) | 1990–2019 |
 | Municipal balance sheets (*Certificati Consuntivi*) | Ministry of Interior — [finanzalocale.interno.gov.it](https://finanzalocale.interno.gov.it) | 1998–2015 |
 | Municipality shapefiles | ISTAT | 2001, 2011 boundaries |
-
----
-
-## Notes
-
-- **Special statute regions excluded**: Trentino-Alto Adige, Friuli-Venezia Giulia, Valle d'Aosta, Sicily, and Sardinia are excluded throughout (different electoral rules).
-- **Concurrent election dates**: Only two in the sample — 13 May 2001 and 13 April 2008.
-- **`bilanci_mngd_2.dta`** is provided as a pre-built file; no data management do-file for it is included in the replication package.
-- **Figure A1** has no Stata output; `FigureA1.do` only generates the input dataset (`nlse.dta`) for `maps.R`.
